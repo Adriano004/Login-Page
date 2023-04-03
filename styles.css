@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+input, button {
+    border-style: double;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.izq {
+    margin: auto;
+}
+
+.titulo {
+    font-size: 37px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+
+.form__label {
+    display: block;
+    padding: 20px 0 5px 0;
+}
+
+.form__login {
+    width: 320px;
+    height: 30px;
+    padding-left: 5px;
+    border-color: #a4a4a4;
+}
+
+.form__login-pass {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.forgot {
+    padding-left: 55px;
+    font-size: 14px;
+}
+
+
+.botones {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.boton-sing {
+    background-color: #000;
+    color: #fff;
+    padding: 9px 0;
+}
+
+.boton-google {
+    background-color: #fff;
+    border-color: #a4a4a4;
+    padding: 8px 0;
+}
+
+.logo {
+    height: 15px;
+    width: 15px;
+}
+
+.dont, .remember {
+    color: #4d4c4c;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.derecha {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(img/chica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.der {
+    width: 85%;
+    background-color:rgba(255,255,255,0.4);
+    backdrop-filter: blur(4px);
+    margin: 0 auto 30px auto;
+}
+
+.titulo-izquierda {
+    padding: 20px;
+}
+
+.columna-izq {
+    padding: 0 20px 20px 15px;
+}
+
+.nombre-izq {
+    padding: 0 20px 20px 3px;
+}
+
+.web {
+    padding-top: 10px;
+}
+
+.boton2, .logo {
+    padding-right: 10px;
+}
+
+.columna {
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.arrow {
+    margin: 40px 15px 0 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.iconos {
+    margin-top: 45px;
+}
